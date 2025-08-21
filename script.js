@@ -425,9 +425,13 @@ class Game {
   bindControls() {
     const keyMap = {
       'w': () => this.moveHero(0, -1),
+      'ц': () => this.moveHero(0, -1),
       's': () => this.moveHero(0, 1),
+      'ы': () => this.moveHero(0, 1),
       'a': () => this.moveHero(-1, 0),
+      'ф': () => this.moveHero(-1, 0),
       'd': () => this.moveHero(1, 0),
+      'в': () => this.moveHero(1, 0),
       ' ': () => this.attack()
     };
 
